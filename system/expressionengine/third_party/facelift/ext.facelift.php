@@ -48,7 +48,7 @@ class Facelift_ext
 		{
 
 			// add json lib if < PHP 5.2
-			include_once 'includes/jsonwrapper/jsonwrapper.php';
+			include_once 'libraries/jsonwrapper/jsonwrapper.php';
 			
 			// Draggable Processing
 			if($this->settings['facelift_draggable'] == 'yes' && $this->EE->input->post('facelift_ajax') != ''){
